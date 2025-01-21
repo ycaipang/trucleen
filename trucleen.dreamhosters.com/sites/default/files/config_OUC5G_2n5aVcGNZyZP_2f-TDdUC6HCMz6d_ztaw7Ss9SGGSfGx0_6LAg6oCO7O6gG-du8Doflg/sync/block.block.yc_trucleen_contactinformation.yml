@@ -1,0 +1,30 @@
+uuid: 420d8cb2-17a8-422e-98cf-5c68a160000b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:62208f58-f00d-4e63-bde3-7b2049afed18'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_contactinformation
+theme: yc_trucleen
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:62208f58-f00d-4e63-bde3-7b2049afed18'
+settings:
+  id: 'block_content:62208f58-f00d-4e63-bde3-7b2049afed18'
+  label: 'contact information'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /contacts

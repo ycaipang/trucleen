@@ -1,0 +1,24 @@
+uuid: 80f24005-3d4e-464e-81c4-ea71b5e1b4a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.simplenews_subscriber.field_city
+  module:
+    - simplenews
+_core:
+  default_config_hash: t5oOE4Rc1ea0fWH96X8dDV0XQ2DQgyF7t7Lr1uI1AFA
+id: simplenews_subscriber.simplenews_subscriber.field_city
+field_name: field_city
+entity_type: simplenews_subscriber
+bundle: simplenews_subscriber
+label: City
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

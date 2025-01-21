@@ -1,0 +1,22 @@
+uuid: 65cc9a09-d936-4727-a90a-e90db068e381
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yc_trucleen
+_core:
+  default_config_hash: i1JmAzwnMqSY1eB8rTXbHJHqA1k8R-__k5ubykGjRhk
+id: yc_trucleen_messages
+theme: yc_trucleen
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

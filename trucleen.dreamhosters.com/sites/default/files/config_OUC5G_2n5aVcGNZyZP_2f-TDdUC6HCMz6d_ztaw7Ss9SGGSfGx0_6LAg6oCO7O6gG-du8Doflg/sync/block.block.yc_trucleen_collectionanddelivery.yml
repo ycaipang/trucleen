@@ -1,0 +1,30 @@
+uuid: 5af2873b-0bbe-4700-ba7e-d89434c6e648
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:64297b5a-44e2-4e8c-8e6a-0a1d88c4e0b8'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_collectionanddelivery
+theme: yc_trucleen
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:64297b5a-44e2-4e8c-8e6a-0a1d88c4e0b8'
+settings:
+  id: 'block_content:64297b5a-44e2-4e8c-8e6a-0a1d88c4e0b8'
+  label: 'Collection and Delivery'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

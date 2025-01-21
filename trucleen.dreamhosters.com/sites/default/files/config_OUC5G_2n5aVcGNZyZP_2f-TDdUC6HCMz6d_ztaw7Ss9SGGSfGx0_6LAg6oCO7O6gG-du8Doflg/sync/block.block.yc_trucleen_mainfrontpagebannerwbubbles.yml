@@ -1,0 +1,30 @@
+uuid: 42b7e2a9-aec6-41a0-aeb0-00816ef6e128
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:dfed3912-f4c6-4df0-80aa-5ad0ebe2479a'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_mainfrontpagebannerwbubbles
+theme: yc_trucleen
+region: featured_top
+weight: -15
+provider: null
+plugin: 'block_content:dfed3912-f4c6-4df0-80aa-5ad0ebe2479a'
+settings:
+  id: 'block_content:dfed3912-f4c6-4df0-80aa-5ad0ebe2479a'
+  label: 'Main frontpage banner w/ bubbles'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

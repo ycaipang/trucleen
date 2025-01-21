@@ -1,0 +1,20 @@
+uuid: e5f6f1a0-1ce3-474b-be7d-6de9b2c7f287
+langcode: en
+status: true
+dependencies:
+  theme:
+    - yc_trucleen
+_core:
+  default_config_hash: qJeApqAqmb-BcCOQbVg3VsLmxNh7rR4XqwNN7SDOGCc
+id: yc_trucleen_primary_admin_actions
+theme: yc_trucleen
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

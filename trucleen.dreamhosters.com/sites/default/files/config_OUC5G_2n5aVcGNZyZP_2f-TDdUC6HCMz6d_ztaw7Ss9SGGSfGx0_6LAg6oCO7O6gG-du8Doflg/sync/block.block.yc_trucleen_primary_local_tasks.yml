@@ -1,0 +1,22 @@
+uuid: 0d384328-f582-47b3-929c-db94032b4dd7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - yc_trucleen
+_core:
+  default_config_hash: YRTz48yf6v1fo_6Efx5wHkmatK8zBWvdiEA6imTU1fI
+id: yc_trucleen_primary_local_tasks
+theme: yc_trucleen
+region: content
+weight: -19
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

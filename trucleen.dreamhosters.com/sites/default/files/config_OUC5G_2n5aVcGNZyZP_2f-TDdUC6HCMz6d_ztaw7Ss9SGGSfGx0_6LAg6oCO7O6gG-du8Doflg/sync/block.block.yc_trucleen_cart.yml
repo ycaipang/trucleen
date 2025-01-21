@@ -1,0 +1,22 @@
+uuid: 2594b4ed-ada0-41dd-9978-467120df562e
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - yc_trucleen
+id: yc_trucleen_cart
+theme: yc_trucleen
+region: primary_menu
+weight: 0
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  label_display: '0'
+  provider: commerce_cart
+  dropdown: false
+  show_if_empty: true
+visibility: {  }

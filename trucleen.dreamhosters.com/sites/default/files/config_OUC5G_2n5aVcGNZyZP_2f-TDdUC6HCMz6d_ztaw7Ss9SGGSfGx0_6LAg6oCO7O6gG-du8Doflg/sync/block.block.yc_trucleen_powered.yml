@@ -1,0 +1,22 @@
+uuid: dcdc0521-caf6-489b-9c6c-4c6ae2a0e230
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - yc_trucleen
+_core:
+  default_config_hash: RZrAjinOIP8ztI3i1nZ-fq2W7IQNQ6Tmu89GYGz2BE8
+id: yc_trucleen_powered
+theme: yc_trucleen
+region: footer_fifth
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

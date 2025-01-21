@@ -1,0 +1,14 @@
+uuid: d33b0e43-8929-48c3-8e16-5abeb4681ac2
+langcode: en
+status: true
+dependencies: {  }
+id: atlanta_book
+label: 'Atlanta Book'
+font_family: 'Atlanta Book'
+font_classification:
+  serif: serif
+  sans-serif: '0'
+  slab-serif: '0'
+  handwriting: '0'
+  decorative: '0'
+  monospace: '0'

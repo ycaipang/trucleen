@@ -1,0 +1,21 @@
+uuid: 81596686-4181-43a9-af31-828767a4ea93
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Y2qE4TXTKonW7r-A1vHWIYHBjEKWAsjBE58T5AjwaAQ
+name: 'Press releases'
+id: press_releases
+description: 'This is the press release.'
+format: plain
+priority: 0
+receipt: false
+from_name: 'Trucleen Drycleaners'
+subject: '[[simplenews-newsletter:name]] [node:title]'
+from_address: admin@example.com
+hyperlinks: true
+allowed_handlers: {  }
+new_account: none
+access: default
+reason: ''
+weight: 0

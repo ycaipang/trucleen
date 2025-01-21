@@ -1,0 +1,11 @@
+uuid: cdbc4af1-3677-4d35-a012-3168fa9ef9c8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: FGYrs0ZrjxSzRQMODyYqquV1UW5MN7S5wUG0Dp_OxWU
+id: online
+label: Online
+description: ''
+traits: {  }
+locked: false

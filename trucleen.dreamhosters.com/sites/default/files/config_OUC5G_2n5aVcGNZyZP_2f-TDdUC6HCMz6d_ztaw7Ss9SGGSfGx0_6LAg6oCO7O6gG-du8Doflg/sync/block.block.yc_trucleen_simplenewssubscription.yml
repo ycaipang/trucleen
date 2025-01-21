@@ -1,0 +1,25 @@
+uuid: a8764131-b379-45e0-80b2-2b0f67245d8d
+langcode: en
+status: false
+dependencies:
+  module:
+    - simplenews
+  theme:
+    - yc_trucleen
+id: yc_trucleen_simplenewssubscription
+theme: yc_trucleen
+region: footer_fifth
+weight: -6
+provider: null
+plugin: simplenews_subscription_block
+settings:
+  id: simplenews_subscription_block
+  label: 'Simplenews subscription'
+  label_display: '0'
+  provider: simplenews
+  newsletters: {  }
+  default_newsletters: {  }
+  message: 'Stay informed - subscribe to our newsletter.'
+  show_manage: false
+  unique_id: 5d053401-86b5-4661-80df-cc3c4ced3301
+visibility: {  }

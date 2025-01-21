@@ -1,0 +1,30 @@
+uuid: 0c8d2d00-b9d7-4061-adf7-03a276b0463b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d82aba28-24b9-4613-af06-938dce242e90'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_frequentlyaskedquestions
+theme: yc_trucleen
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:d82aba28-24b9-4613-af06-938dce242e90'
+settings:
+  id: 'block_content:d82aba28-24b9-4613-af06-938dce242e90'
+  label: 'Frequently Asked Questions'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /faq-frequently-asked-questions

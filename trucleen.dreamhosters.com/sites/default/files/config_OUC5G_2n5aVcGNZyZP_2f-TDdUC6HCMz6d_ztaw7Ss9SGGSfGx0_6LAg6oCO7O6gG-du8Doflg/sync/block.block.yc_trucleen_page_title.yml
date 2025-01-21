@@ -1,0 +1,26 @@
+uuid: b7eae7c4-19bf-4f0c-a0e6-1e9b5f143b2d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yc_trucleen
+_core:
+  default_config_hash: '-4jr2OQ7u7-M3_J5qY2T4ebOSewdREX3IHHSpG405QQ'
+id: yc_trucleen_page_title
+theme: yc_trucleen
+region: featured_top
+weight: -12
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

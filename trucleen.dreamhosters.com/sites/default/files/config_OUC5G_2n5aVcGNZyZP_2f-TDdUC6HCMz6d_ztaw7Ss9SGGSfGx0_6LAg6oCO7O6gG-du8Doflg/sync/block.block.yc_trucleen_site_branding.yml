@@ -1,0 +1,25 @@
+uuid: f0b6157a-9d5a-4e7f-9bb1-2332c1ffa72b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yc_trucleen
+_core:
+  default_config_hash: aBLlCcshWRLGs8R5gMS_uSVANg5VaZg0bi1U_thitEc
+id: yc_trucleen_site_branding
+theme: yc_trucleen
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

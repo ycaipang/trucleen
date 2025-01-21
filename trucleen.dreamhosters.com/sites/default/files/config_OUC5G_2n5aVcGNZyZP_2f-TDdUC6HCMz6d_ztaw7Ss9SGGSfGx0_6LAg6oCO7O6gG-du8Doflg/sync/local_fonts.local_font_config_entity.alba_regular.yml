@@ -1,0 +1,14 @@
+uuid: 866dc6c3-5707-44a8-b1f2-e87dd6750386
+langcode: en
+status: true
+dependencies: {  }
+id: alba_regular
+label: 'Alba Regular'
+font_family: 'Alba Regular'
+font_classification:
+  serif: serif
+  sans-serif: '0'
+  slab-serif: '0'
+  handwriting: '0'
+  decorative: '0'
+  monospace: '0'

@@ -5,8 +5,8 @@
 /trucleen_main.sql
 /vendor
 /trucleen.dreamhosters.com/sites/default/settings.php
-/.alias
 /trucleen.dreamhosters.com/themes/custom/yc_trucleen/node_modules
+/trucleen.dreamhosters.com/themes/custom/yc_trucleen/node_modules/*
 
 # Ignore - dreamhost
 /.bash_history

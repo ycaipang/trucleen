@@ -1,0 +1,30 @@
+uuid: da14db10-0dc0-40bb-8a96-37e01785b10f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a3d8cae4-75be-4c80-b242-48c00cd3ecec'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_whychooseus
+theme: yc_trucleen
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:a3d8cae4-75be-4c80-b242-48c00cd3ecec'
+settings:
+  id: 'block_content:a3d8cae4-75be-4c80-b242-48c00cd3ecec'
+  label: 'why choose us'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /about-us

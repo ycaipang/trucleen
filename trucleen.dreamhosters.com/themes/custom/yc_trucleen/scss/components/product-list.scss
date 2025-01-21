@@ -1,0 +1,42 @@
+@import "../import";
+
+.view-product-list {
+    .table-responsive {
+        .commerce-order-item-add-to-cart-form {
+            button {
+                color: white;
+                background: #28a745;
+                border-radius: 0;
+                border: 0;
+            }
+        }
+    }
+}
+
+.view-commerce-cart-form {
+    .table-responsive {
+        button {
+            color: white;
+            background: #28a745;
+            border-radius: 0;
+            border: 0;
+        }
+    }
+    #edit-actions {
+        button {
+            color: white;
+            background: #28a745;
+            border-radius: 0;
+            border: 0;
+        }
+    }
+}
+
+.commerce-checkout-flow {
+    button {
+        color: white;
+        background: #28a745;
+        border-radius: 0;
+        border: 0;
+    }
+}

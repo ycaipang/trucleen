@@ -1,0 +1,24 @@
+uuid: 82701e00-a34f-4dfc-8eaf-0859cb130bd5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.simplenews_subscriber.field_last_name
+  module:
+    - simplenews
+_core:
+  default_config_hash: KIm0h9FJwHe4vdu3ii1ahKCOVwZZWTZkH9ebZI5px5c
+id: simplenews_subscriber.simplenews_subscriber.field_last_name
+field_name: field_last_name
+entity_type: simplenews_subscriber
+bundle: simplenews_subscriber
+label: 'Last name'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

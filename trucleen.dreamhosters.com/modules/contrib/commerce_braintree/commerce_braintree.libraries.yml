@@ -1,0 +1,112 @@
+braintree:
+  remote: https://github.com/braintree/braintree-web
+  version: "3.92.1"
+  license:
+    name: MIT
+    url: https://github.com/braintree/braintree-web/blob/3.92.1/LICENSE
+    gpl-compatible: true
+  js:
+    https://js.braintreegateway.com/web/3.92.1/js/client.min.js:
+      minified: true
+      type: external
+      attributes:
+        integrity: "sha384-7ZQUrSdez5rOy8j/7Pfc7ON9PPvZnzVIP8/7Msl/E4m4km/zlBQFCno0WviGqiFD"
+        crossorigin: anonymous
+
+braintree-hosted-fields:
+  remote: https://github.com/braintree/braintree-web
+  version: "3.92.1"
+  license:
+    name: MIT
+    url: https://github.com/braintree/braintree-web/blob/3.92.1/LICENSE
+    gpl-compatible: true
+  js:
+    https://js.braintreegateway.com/web/3.92.1/js/hosted-fields.min.js:
+      minified: true
+      type: external
+      attributes:
+        integrity: "sha384-hmu05yoz1yxkAnOkKSk653HzVOO2S2EJ8luNdPNxXGJ0f6XbpeV08D0JYWm//JjY"
+        crossorigin: anonymous
+  dependencies:
+    - commerce_braintree/braintree
+
+braintree-3d-secure:
+  remote: https://github.com/braintree/braintree-web
+  version: "3.92.1"
+  license:
+    name: MIT
+    url: https://github.com/braintree/braintree-web/blob/3.92.1/LICENSE
+    gpl-compatible: true
+  js:
+    https://js.braintreegateway.com/web/3.92.1/js/three-d-secure.min.js:
+      minified: true
+      type: external
+      attributes:
+        integrity: "sha384-FkB4vqKxSQyKTuwpPhT3psT0ZkBk2oEMuXxHaTFkScY9KkFsjNfaKv95Cf+OnMPE"
+        crossorigin: anonymous
+  dependencies:
+   - commerce_braintree/braintree
+
+braintree-paypal-checkout:
+  remote: https://github.com/braintree/braintree-web
+  version: "3.92.1"
+  license:
+    name: MIT
+    url: https://github.com/braintree/braintree-web/blob/3.92.1/LICENSE
+    gpl-compatible: true
+  js:
+    https://js.braintreegateway.com/web/3.92.1/js/paypal-checkout.min.js:
+      minified: true
+      type: external
+      attributes:
+        integrity: "sha384-JG1c8znTKiZkdEct5F6R0PVbeoQE9OItRuCdVxkj8rFTHLp4Shffq62OP3xFuUao"
+        crossorigin: anonymous
+  dependencies:
+    - commerce_braintree/braintree
+
+hosted-fields:
+  version: VERSION
+  css:
+    theme:
+      css/commerce_braintree.form.css: {}
+  js:
+    js/hosted-fields.js: {}
+    js/commerce_braintree.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/once
+    - commerce_braintree/braintree-hosted-fields
+
+checkout-review:
+  version: VERSION
+  css:
+    theme:
+      css/commerce_braintree.form.css: {}
+  js:
+    js/commerce_braintree.review.js: {}
+  dependencies:
+    - core/drupal.dialog
+    - core/drupalSettings
+    - core/drupal
+    - core/jquery
+    - core/once
+    - commerce_braintree/braintree-hosted-fields
+    - commerce_braintree/braintree-3d-secure
+
+paypal:
+  version: VERSION
+  js:
+    js/paypal.js: {}
+    js/commerce_braintree.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/once
+    - commerce_braintree/braintree-paypal-checkout
+
+credit_card_icons:
+  version: VERSION
+  css:
+    theme:
+      css/commerce_braintree.credit_card_icons.css: {}

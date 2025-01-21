@@ -1,0 +1,143 @@
+@import "../import";
+
+.how-we-work {
+    display: flex;
+    align-items: center;
+    // padding: 20px;
+    // background-color: #f7f7f7;
+    @include max(md) {
+        display: block;
+    }
+    .left-col {
+        @include min(md) {
+            padding-right: 35px;
+            flex: 1 0 50%;
+        }
+        h5 {
+            font-weight: 600;
+            color: #28a745;
+            margin-bottom: 16px;
+            @include max(md) {
+               width: 80%;
+            }
+        }
+        h2 {
+            font-weight: 700;
+            margin-bottom: 24px;
+            @include min(md) {
+                margin-bottom: 12px;
+            }
+        }
+        p {
+            margin-bottom: 24px;
+            text-align: justify;
+            @include min(md) {
+                margin-bottom: 12px;
+            }
+        }
+        button {
+            color: white;
+            padding: 15px 25px;
+            border-radius: 0;
+            font-weight: 600;
+            @include max(md) {
+                width: 100%;
+            }
+        }
+    }
+    .right-col {
+        .right-col-items {
+            .img-col {
+                flex-grow: 0;
+                flex-shrink: 0;
+                flex-basis: 50%;
+                @include min(md) {
+                    padding-right: 15px;
+                }
+                img {
+                    width: 100%;
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+            .two-col {
+                display: flex;
+                align-items: center;
+                @include max(lg) {
+                    display: block;
+                }
+                .text-col {
+                    @include max(md) {
+                        min-height: 140px;
+                    }
+                    h3 {
+                        font-weight: 600;
+                        @include max(md) {
+                            font-size: 20px;
+                        }
+                        span {
+                            color: #28a745;
+                        }
+                    }
+                    p {
+                        text-align: justify;
+                    }
+                }
+            }
+            ul {
+                list-style: none;
+                text-align: center;
+                padding: 0;
+                li {
+                    display: inline;
+                    font-size: 24px;
+                    font-weight: 600;
+                    padding: 15px 30px;
+                    background-color: white;
+                    border: 4px solid #efefef;
+                    margin-right: 50px;
+                    border-radius: 50px;
+                    @include max (xl) {
+                        padding: 10px 22px;
+                    }
+                    @include max (lg) {
+                        padding: 12px 20px;
+                        font-size: 14px;
+                        margin-right: 15px;
+                    }
+            
+                    &:not(:last-child) {
+                        &::after {
+                            width: 0;
+                            white-space: nowrap;
+                            content: ".......";
+                            color: #efefef;
+                            font-weight: bold;
+                            position: absolute;
+                            margin-left: 35px;
+                            @include max (xl) {
+                                content: ".......";
+                                margin-left: 28px;
+                            }
+                            @include max (lg) {
+                                content: "....";
+                                margin-left: 25px;
+                            }
+                        }
+                    }
+                    &.active {
+                        border-color: #28a745;
+                        &:not(:last-child) {
+                            &::after {
+                                color: #28a745;
+                            }
+                        }
+                    }
+                    span {
+
+                    }
+                }
+            }
+        }
+    }
+}

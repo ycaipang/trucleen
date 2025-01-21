@@ -1,0 +1,30 @@
+uuid: 68fb276a-c94f-41f0-8f6c-b4789b49e1bc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6db0d696-2a43-4b6a-a663-5ac35cb25482'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_trustedlaundryservice
+theme: yc_trucleen
+region: content
+weight: -10
+provider: null
+plugin: 'block_content:6db0d696-2a43-4b6a-a663-5ac35cb25482'
+settings:
+  id: 'block_content:6db0d696-2a43-4b6a-a663-5ac35cb25482'
+  label: 'Trusted Laundry Service'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

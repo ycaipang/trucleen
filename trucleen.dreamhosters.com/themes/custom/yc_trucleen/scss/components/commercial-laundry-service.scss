@@ -1,0 +1,70 @@
+@import "../import";
+
+.commercial-laundry-service {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    // padding: 20px;
+    // background-color: #f7f7f7;
+    @include max(md) {
+        display: block;
+    }
+    .col-left {
+        
+        flex-shrink: 0;
+        flex-basis: 35%;
+        @include min(md) {
+            margin-right: 50px;
+        }
+        .large-img {
+            @include max(md) {
+                margin-bottom: 12px;
+            }
+            img {
+                width: 100%;
+                height: 400px;
+                object-fit: cover;
+            }
+        }
+    }
+    .col-right {
+        h5 {
+            font-weight: 600;
+            color: #28a745;
+            margin-bottom: 16px;
+            @include max(md) {
+                margin-bottom: 12px;
+                max-width: 80%;
+            }
+        }
+        h2 {
+            font-weight: 700;
+            margin-bottom: 24px;
+            @include max(md) {
+                margin-bottom: 12px;
+            }
+        }
+        p {
+            margin-bottom: 24px;
+            text-align: justify;
+            @include max(md) {
+                margin-bottom: 12px;
+            }
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            @include min(md) {
+                columns: 2;
+            }
+            li {
+                &::before {
+                    content: "✓";
+                    margin-right: 0.625rem;
+                    font-weight: 600;
+                    color: #28a745;
+                }
+            }
+        }
+    }
+}

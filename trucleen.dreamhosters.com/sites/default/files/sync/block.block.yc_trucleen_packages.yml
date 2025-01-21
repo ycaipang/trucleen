@@ -1,0 +1,30 @@
+uuid: 88631819-f604-4348-b82d-73f971cf081f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2bb5ebff-35ec-44b5-95f1-5d3c7fd53654'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_packages
+theme: yc_trucleen
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:2bb5ebff-35ec-44b5-95f1-5d3c7fd53654'
+settings:
+  id: 'block_content:2bb5ebff-35ec-44b5-95f1-5d3c7fd53654'
+  label: packages
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/prices"

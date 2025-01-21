@@ -1,0 +1,23 @@
+uuid: 468ded09-d07f-4ddd-ad7e-36ef6bf50026
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - yc_trucleen
+_core:
+  default_config_hash: 6EyWr1lm1YvRMg2v1DhrXP55_KvbWukemLXqzOsjNH0
+id: yc_trucleen_search_form_narrow
+theme: yc_trucleen
+region: sidebar_first
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

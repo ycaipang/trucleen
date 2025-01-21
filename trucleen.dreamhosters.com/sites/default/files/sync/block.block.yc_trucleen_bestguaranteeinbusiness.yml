@@ -1,0 +1,30 @@
+uuid: fe453b67-c0d4-4d3f-86c5-4869bcc5779a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:23d7cf4d-926c-498d-9107-bad82362f00d'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_bestguaranteeinbusiness
+theme: yc_trucleen
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:23d7cf4d-926c-498d-9107-bad82362f00d'
+settings:
+  id: 'block_content:23d7cf4d-926c-498d-9107-bad82362f00d'
+  label: 'Best Guarantee in Business'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /about-us

@@ -1,0 +1,30 @@
+uuid: 4fea5fcb-f621-48d6-b562-ae209a1e960d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e87b6635-de14-42b7-a1ac-318e2d442301'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_pricetable
+theme: yc_trucleen
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:e87b6635-de14-42b7-a1ac-318e2d442301'
+settings:
+  id: 'block_content:e87b6635-de14-42b7-a1ac-318e2d442301'
+  label: 'Price Table'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /prices

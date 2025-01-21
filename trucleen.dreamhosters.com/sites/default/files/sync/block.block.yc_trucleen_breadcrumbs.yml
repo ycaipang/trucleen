@@ -1,0 +1,26 @@
+uuid: a3c16042-904a-47cc-97b9-9ac5f72e0e08
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yc_trucleen
+_core:
+  default_config_hash: vqbXdSqrOfkhOQxUaj2nmihAA2fLsCeJLsaVAm4Q0Zc
+id: yc_trucleen_breadcrumbs
+theme: yc_trucleen
+region: featured_top
+weight: -13
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

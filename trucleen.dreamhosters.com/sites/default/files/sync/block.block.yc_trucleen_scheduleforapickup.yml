@@ -1,0 +1,25 @@
+uuid: 15a05ff9-1f43-4e91-a8ed-08c093f541db
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:059ef284-b7d0-402d-a725-512670058601'
+  module:
+    - block_content
+  theme:
+    - yc_trucleen
+id: yc_trucleen_scheduleforapickup
+theme: yc_trucleen
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'block_content:059ef284-b7d0-402d-a725-512670058601'
+settings:
+  id: 'block_content:059ef284-b7d0-402d-a725-512670058601'
+  label: 'Schedule for a Pickup'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

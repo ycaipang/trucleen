@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * @file
+ * Provides Commerce integration for Braintree Payments.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function commerce_braintree_theme() {
+  return [
+    'commerce_braintree_credit_card_logos' => [
+      'variables' => [
+        'credit_cards' => [],
+      ],
+    ],
+  ];
+}
+
+/**
+ * Implements hook_library_info_alter().
+ */
+function commerce_braintree_library_info_alter(array &$libraries, $module) {
+  if ($module === 'commerce_braintree') {
+    // Adds a dependency on the payment_messages library only if it is defined.
+    if (\Drupal::service('library.discovery')->getLibraryByName('commerce_payment', 'payment_messages')) {
+      $payment_messages = 'commerce_payment/payment_messages';
+      $libraries['checkout-review']['dependencies'][] = $payment_messages;
+      $libraries['hosted-fields']['dependencies'][] = $payment_messages;
+      $libraries['paypal']['dependencies'][] = $payment_messages;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+#edit-commerce-payment-payment-details-braintree-number {
+  width: 16em;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#edit-commerce-payment-payment-details-braintree-cvv {
+  width: 82px;
+  margin-top: 10px;
+}
+
+#edit-commerce-payment-payment-details-braintree-amount {
+  width: 82px;
+  margin-top: 10px;
+}
+
+.credit-card-form__expiration {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 1em;
+}
+
+.braintree-hosted-field {
+  box-sizing: content-box;
+  height: 1.2em;
+  padding: 4px;
+  border: 1px solid #D6D2C4;
+  background: #FFF;
+}
+
+.braintree-form #card-number {
+  width: 16em;
+}
+
+.braintree-form #expiration-month {
+  width: 3em;
+}
+
+.braintree-form #expiration-year {
+  width: 3em;
+}
+
+.braintree-form #cvv {
+  width: 5em;
+}
+
+.braintree-hosted-fields-focused {
+  border-color: #777;
+}
+
+.braintree-hosted-fields-invalid {
+  border-color: red;
+}
+
+.braintree-hosted-fields-valid {
+  border-color: limegreen;
+}

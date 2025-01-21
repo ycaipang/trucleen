@@ -1,0 +1,118 @@
+@import "../import";
+
+#navbar-top {
+    .container {
+        @include max(lg) {
+            justify-content: center;
+        }
+        @include max(md) {
+            display: block;
+        }
+        .region-secondary-menu {
+            #block-yc-trucleen-account-menu {
+                .nav {
+                    @include max(lg) {
+                        justify-content: center;
+                    }
+                    @include max(md) {
+                        display: block;
+                        text-align: center;
+                        padding: 5px 0;
+                    }
+                    .nav-link {
+                        color: $gray-700!important;
+                        @include max(md) {
+                            padding: 0 0 5px 0;
+                        }
+                    }
+                }
+            }
+        }
+        .navbar-form {
+            margin: 0 auto        ;
+            padding: 5px 0 10px;
+        }
+        #block-yc-trucleen-telnosocialmedia {
+            @include max(md) {
+                padding: 5px 0 10px;
+            }
+        }
+    }
+    
+}
+
+ul.socials {
+    margin-bottom: 0;
+    li {
+        list-style: none;
+        display: inline;
+        padding: 0px 10px;
+    }
+    .tel-icon {
+        padding: 0;
+    }
+    .tel-no {
+        padding-left: 5px;
+        margin-right: 15px;
+    }
+}
+
+#navbar-main {
+    .navbar-brand{
+        img {
+            width: 160px;
+        }
+    }
+    #CollapsingNavbar {
+        text-align: center;
+        padding: 10px 0;
+        @include max(lg) {
+            text-transform: uppercase;
+        }
+        #block-yc-trucleen-main-menu {
+            @include max(lg) {
+                margin-bottom: 16px;
+            }
+        }
+        nav {
+            ul {
+                li {
+                    a {
+                        padding: 20px;
+                        font-size: 18px;
+                        @include max (lg) {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #block-yc-trucleen-scheduleforapickup {
+        .nav-btn {
+            button {
+                color: white;
+                padding: 15px 25px;
+                border-radius: 0;
+                font-weight: 600;
+                width: 100%;
+                a {
+                    color: white;
+                    &:hover {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#block-yc-trucleen-cart {
+    .cart--cart-block {
+        a {
+            span {
+                color: white;
+            }
+        }
+    }
+}

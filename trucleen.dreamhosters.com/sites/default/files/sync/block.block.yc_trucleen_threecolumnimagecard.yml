@@ -1,0 +1,30 @@
+uuid: 7c4359b7-c883-49bf-9b50-bf1e3f2b307c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:abc39c47-1519-4625-a221-591381f845a6'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_threecolumnimagecard
+theme: yc_trucleen
+region: content
+weight: -15
+provider: null
+plugin: 'block_content:abc39c47-1519-4625-a221-591381f845a6'
+settings:
+  id: 'block_content:abc39c47-1519-4625-a221-591381f845a6'
+  label: 'three column image card'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

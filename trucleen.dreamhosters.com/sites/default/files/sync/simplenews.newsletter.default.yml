@@ -1,0 +1,21 @@
+uuid: 58678542-d657-4646-bd34-8b5f42a4ae61
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wg5cCxB554rXZx4TIzUACcXRXe-VSodwqcq-_QS4Tv0
+name: 'Default newsletter'
+id: default
+description: 'This is an example newsletter. Change it.'
+format: plain
+priority: 0
+receipt: true
+from_name: 'Trucleen Drycleaners'
+subject: '[[simplenews-newsletter:name]] [node:title]'
+from_address: admin@example.com
+hyperlinks: false
+allowed_handlers: {  }
+new_account: none
+access: default
+reason: ''
+weight: 0

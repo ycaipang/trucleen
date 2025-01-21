@@ -1,0 +1,40 @@
+@import "../import";
+
+.collection-delivery {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    @include max(md) {
+        display: block;
+    }
+    // padding: 20px;
+    // background-color: #f7f7f7;
+    .left-col {
+        flex-shrink: 0;
+        flex-basis: 50%;
+        text-align: center;
+        h2 {
+            font-weight: 700;
+            margin-bottom: 24px;
+            @include max(md) {
+                margin-bottom: 12px;
+            }
+            span {
+                color: #28a745;
+            }
+        }
+        p {
+            margin-bottom: 24px;
+        }
+        h3 {
+            font-weight: 600;
+        }
+    }
+    .right-col {
+        .img-wrap {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

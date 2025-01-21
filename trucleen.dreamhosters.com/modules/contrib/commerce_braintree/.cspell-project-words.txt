@@ -1,0 +1,6 @@
+braintree
+dinersclub
+hostedfields
+THREEDS
+unionpay
+Vzero

@@ -1,0 +1,66 @@
+@import "../import";
+
+.three-col-image-card {
+    h5 {
+        font-weight: 600;
+        color: #28a745;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    h2 {
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 36px;
+    }
+    .row {
+        @include max(md) {
+            display: block;
+        }
+        .col {
+
+            @include max(md) {
+                margin-bottom: 16px;
+            }
+            .col-item {
+                padding: 20px;
+                background-color: #f7f7f7;
+                position: relative;
+                max-height: 600px;
+                margin-bottom: 20px;
+                
+            }
+        }
+    }
+    .card-img {
+        img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+    }
+    .icon-text {
+        position: relative;
+        bottom: 75px;
+        .card-icon {
+            display: inline-block;
+            padding: 20px;
+            svg {
+                width: 100px;
+                height: auto;
+                fill: $white;
+                background-color: $green;
+                border-radius: 50px;
+                padding: 25px;
+            }
+        }
+        .card-text {
+            h4 {
+                font-weight: 600;
+            }
+            p {
+                margin-bottom: 0;
+                text-align: justify;
+            }
+        }
+    }
+}

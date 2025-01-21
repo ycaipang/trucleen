@@ -1,0 +1,7 @@
+@font-face {
+font-family: 'Atlanta Book';
+font-weight: normal;
+font-style: normal;
+src: url('font.woff') format('woff');
+font-display: swap;
+}

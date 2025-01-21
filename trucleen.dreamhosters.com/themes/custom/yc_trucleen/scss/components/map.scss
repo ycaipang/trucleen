@@ -1,0 +1,16 @@
+@import "../import";
+
+.featured-bottom {
+    background-color: #f7f7f7;
+}
+
+#block-yc-trucleen-map {
+    padding: 0;
+    .map {
+        iframe {
+            width: 100%;
+            height: 600px;
+        }
+    }
+} 
+

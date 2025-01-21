@@ -1,0 +1,22 @@
+uuid: f6f17492-a787-4179-a877-b38f80537887
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - yc_trucleen
+_core:
+  default_config_hash: ky5uSDnUOD8F-NdxcEa4Pe_rghXMy1Gd9ZEIvoYH4vY
+id: yc_trucleen_content
+theme: yc_trucleen
+region: content
+weight: 3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

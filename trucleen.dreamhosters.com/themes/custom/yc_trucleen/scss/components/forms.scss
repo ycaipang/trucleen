@@ -1,0 +1,35 @@
+@import "../import";
+
+#block-yc-trucleen-webform {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f7f7f7;
+    #webform-submission-contact-node-8-add-form {
+        .js-form-item {
+            label {
+                display: none;
+            }
+            input {
+                min-height: 50px;
+            }
+            .contact-header {
+                h1 {
+                    font-weight: 700;
+                    margin-bottom: 24px;
+                }
+                p {
+                    margin-bottom: 36px;
+                }
+            }
+        }
+        .form-actions {
+            button {
+                color: white;
+                padding: 15px 20px;
+                border-radius: 0;
+                font-weight: 500;
+            }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+global-styling:
+  version: VERSION
+  js: 
+    js/popper.min.js: { weight: -49 }
+    js/bootstrap.min.js: { weight: -48 }
+    js/barrio.js: {}
+    js/custom.js: {}
+  css:
+    component:
+      css/style.css: {}
+      css/header.css: {}
+      css/footer.css: {}
+
+  dependencies:
+    - core/jquery
+    - core/drupal
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700': { type: external }
+      '//fonts.googleapis.com/css2?family=Anton&family=Nunito:wght@400;600;700&display=swap': { type: external }
+
+#start library
+slick:
+  js:
+    libraries/slick/slick.min.js: {}
+  css:
+    component:
+      libraries/slick/slick.css: {}
+
+particles:
+  js:
+    libraries/particles/particles.min.js: {}
+  css:
+    component:
+      css/particles.css: {}
+
+two-col-banner:
+  css:
+    component:
+      css/two-col-banner.css: {}
+
+three-col-text-cards:
+  css:
+    component:
+      css/three-col-text-cards.css: {}
+
+three-col-image-cards:
+  css:
+    component:
+      css/three-col-image-cards.css: {}
+
+how-we-work:
+  css:
+    component:
+      css/how-we-work.css: {}
+
+commercial-laundry-service:
+  css:
+    component:
+      css/commercial-laundry-service.css: {}
+
+trusted-laundry-service:
+  css:
+    component:
+      css/trusted-laundry-service.css: {}
+
+prices:
+  css:
+    component:
+      css/prices.css: {}
+
+packages:
+  css:
+    component:
+      css/packages.css: {}
+
+collection-delivery:
+  css:
+    component:
+      css/collection-delivery.css: {}
+map:
+  css:
+    component:
+      css/map.css: {}
+
+number-experience:
+  css:
+    component:
+      css/number-experience.css: {}
+
+page-banner:
+  js:
+    libraries/particles/particles.min.js: {}
+  css:
+    component:
+      css/page-banner.css: {}
+
+forms:
+  css:
+    component:
+      css/forms.css: {}
+
+product-list:
+  css:
+    component:
+      css/product-list.css: {}

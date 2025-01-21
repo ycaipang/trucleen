@@ -1,0 +1,30 @@
+uuid: d46beb91-ec3e-4596-8f06-34c5d1618f8e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2e34c175-77d3-4975-b626-75f9c89ff426'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_pagebannerbackground
+theme: yc_trucleen
+region: featured_top
+weight: -14
+provider: null
+plugin: 'block_content:2e34c175-77d3-4975-b626-75f9c89ff426'
+settings:
+  id: 'block_content:2e34c175-77d3-4975-b626-75f9c89ff426'
+  label: 'page banner background'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

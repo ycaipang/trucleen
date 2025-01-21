@@ -1,0 +1,30 @@
+uuid: ede8ea02-7688-4a84-a781-d1a3db56008f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:67f67bdd-3442-482f-b125-f8244b9da725'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_map
+theme: yc_trucleen
+region: featured_bottom_third
+weight: -14
+provider: null
+plugin: 'block_content:67f67bdd-3442-482f-b125-f8244b9da725'
+settings:
+  id: 'block_content:67f67bdd-3442-482f-b125-f8244b9da725'
+  label: map
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/contacts"

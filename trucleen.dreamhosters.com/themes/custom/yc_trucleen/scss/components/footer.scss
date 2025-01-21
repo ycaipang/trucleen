@@ -1,0 +1,90 @@
+@import "../import";
+
+.site-footer {
+    background: $gray-800;
+}
+
+.site-footer__bottom {
+    color: $gray-100;
+}
+
+.footer-items {
+    padding: 0 25px;
+    @include min(xl) {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+    .footer-grid {
+        display: flex;
+        justify-content: space-between;
+        @include max(md) {
+            display: block;
+        }
+        > div {
+            .footer-logo {
+                img {
+                    width: 120px;
+                    height: auto;
+                }
+            }
+            h4 {
+                margin-bottom: 16px;
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+                li {
+                    display: flex;
+                    margin-bottom: 6px;
+                    svg {
+                       fill: #28a745;
+                       margin-right: 5px;
+                    }
+                }
+            }
+        }
+        .logo {
+            flex: 0 0 30%;
+        }
+        .time {
+            flex: 1 0 0;
+            @include min(md) {
+                margin: 0 10px;
+            }
+            @include min(xl) {
+                padding-left: 25px;
+            }
+        }
+        .letter {
+            flex: 0 0 30%;
+            .signup-btn {
+                button {
+                    color: white;
+                    font-weight: 600;
+                    font-size: 20px;
+                    border-radius: 0;
+                    padding: 10px 15px;
+                    width: 100%;
+                    &:hover {
+                        color: white;
+                    }
+                    a {
+                        color: white;
+                        &:hover {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+body {
+    background-image: url(/sites/default/files/images/svg/Grey-Blob.svg);
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-size: 100%;
+}

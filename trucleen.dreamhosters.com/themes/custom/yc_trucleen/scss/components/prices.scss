@@ -1,0 +1,87 @@
+@import "../import";
+
+.prices {
+    text-align: center;
+    > h5 {
+        font-weight: 600;
+        color: #28a745;
+        margin-bottom: 16px;
+    }
+    > h2 {
+        font-weight: 700;
+        margin-bottom: 24px;
+        @include max(md) {
+            margin-bottom: 12px;
+        }
+    }
+    > p {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 32px;
+        @include max(md) {
+            width: 90%;
+            margin-bottom: 0;
+        }
+    }
+    .price-col {
+        position: relative;
+        .row {
+            margin: 0 -30px;
+        }
+        .item-icon {
+            min-height: 70px;
+            img {
+                width: 50px;
+                height: auto;
+                margin: 0 auto;
+                opacity: .8;
+            }
+        }
+        h5 {
+            font-weight: 600;
+        }
+        .item-price {
+            p {
+                font-weight: 600;
+                font-size: 26px;
+                color: #28a745;
+            }
+        }
+        .slick-section {
+            ul.slick-dots {
+                li {
+                    display: inline-block;
+                    button {
+                        border-radius: 25px;
+                        width: 15px;
+                        height: 15px;
+                        font-size: 0;
+                        padding: 5px;
+                        margin: 0 10px;
+                        border: none;
+                    }
+                    &.slick-active {
+                        button {
+                            background-color: #28a745;
+                        }
+                    }
+                }
+            }
+            .slick-list {
+                margin-bottom: 24px;
+            }
+            .price-wrap {
+                background-color: #f7f7f7;
+                margin: 15px;
+                padding: 40px 0px;
+            }
+        }
+        .icons8.absolute {
+            position: absolute;
+            right: 0;
+            bottom: 15%;
+        }
+    }
+    
+}

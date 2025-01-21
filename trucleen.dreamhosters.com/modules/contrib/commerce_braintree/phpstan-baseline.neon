@@ -1,0 +1,21 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Variable \\$result in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: src/ErrorHelper.php
+
+		-
+			message: "#^Unsafe usage of new static\\(\\)\\.$#"
+			count: 1
+			path: src/Plugin/Commerce/PaymentGateway/HostedFields.php
+
+		-
+			message: "#^Variable \\$result might not be defined\\.$#"
+			count: 4
+			path: src/Plugin/Commerce/PaymentGateway/HostedFields.php
+
+		-
+			message: "#^Unsafe usage of new static\\(\\)\\.$#"
+			count: 1
+			path: src/PluginForm/HostedFields/PaymentMethodAddForm.php

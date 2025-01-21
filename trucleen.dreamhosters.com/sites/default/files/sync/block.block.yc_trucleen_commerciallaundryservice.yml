@@ -1,0 +1,30 @@
+uuid: 8af09994-1d23-4d68-9f0e-4be74c061077
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:71a76b1c-b8bb-4ba2-b743-62631301e057'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_commerciallaundryservice
+theme: yc_trucleen
+region: content
+weight: -13
+provider: null
+plugin: 'block_content:71a76b1c-b8bb-4ba2-b743-62631301e057'
+settings:
+  id: 'block_content:71a76b1c-b8bb-4ba2-b743-62631301e057'
+  label: 'Commercial Laundry Service'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/services"

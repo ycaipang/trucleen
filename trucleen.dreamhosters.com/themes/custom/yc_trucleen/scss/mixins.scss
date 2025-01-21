@@ -1,0 +1,36 @@
+@mixin min($point) {
+    @if map_has_key($bp, $point) {
+      @media (min-width: #{map-get($bp, $point)}) {
+        @content;
+      }
+    } @else {
+      @media (min-width: #{$point}px) {
+        @content;
+      }
+    }
+  };
+  
+  @mixin max($point) {
+    @if map_has_key($bp, $point) {
+      @media (max-width: #{map-get($bp, $point) - 1}) {
+        @content;
+      }
+    } @else {
+      @media (max-width: #{$point - 1}px) {
+        @content;
+      }
+    }
+  };
+  
+  @mixin between($min, $max) {
+    @media (min-width: #{map-get($bp, $min)}) and (max-width: #{map-get($bp, $max) - 1}) {
+      @content;
+    }
+  };
+  
+  @mixin print() {
+    @media print {
+      @content;
+    }
+  };
+  

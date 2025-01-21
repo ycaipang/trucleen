@@ -1,0 +1,52 @@
+@import "../import";
+
+.three-col-text-card {
+    .text-card-item {
+        padding: 20px;
+        background-color: #f3f3f3ab;
+        border-radius: 4px;
+        @include max(xl) {
+            min-height: 200px;
+        }
+        @include max(lg) {
+            min-height: 250px;
+        }
+        @include max(md) {
+            min-height: unset;
+        }
+    }
+    .row {
+        @include max(md) {
+            display: block;
+        }
+        .col {
+            @include max(md) {
+                margin-bottom: 16px;
+            }
+            .icon-title {
+                display: flex;
+                margin-bottom: 12px;
+                align-items: start;
+                @include max(xl) {
+                    min-height: 60px;
+                }
+                svg {
+                    color: $green;
+                    @include min(md) {
+                        flex: 0 0 20%;
+                    }
+                }
+                h4 {
+                    font-weight: 600;
+                    margin: 0 0 0 10px;
+                }
+                @include max(lg) {
+                    min-height: 56px;
+                }
+                @include max(md) {
+                    min-height: unset;
+                }
+            } 
+        }
+    }
+}

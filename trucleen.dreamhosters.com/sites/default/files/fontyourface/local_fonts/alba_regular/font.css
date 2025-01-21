@@ -1,0 +1,7 @@
+@font-face {
+font-family: 'Alba Regular';
+font-weight: normal;
+font-style: normal;
+src: url('font.woff') format('woff');
+font-display: swap;
+}

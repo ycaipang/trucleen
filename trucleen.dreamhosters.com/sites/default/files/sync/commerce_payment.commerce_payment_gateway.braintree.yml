@@ -1,0 +1,26 @@
+uuid: 6a91af4a-e29c-4bbc-9210-a9f886972138
+langcode: en
+status: false
+dependencies:
+  module:
+    - commerce_braintree
+id: braintree
+label: Braintree
+weight: null
+plugin: braintree_hostedfields
+configuration:
+  display_label: Braintree
+  mode: test
+  payment_method_types:
+    - credit_card
+  collect_billing_information: false
+  merchant_id: z4tjcczz843x22zd
+  public_key: n8m6hf4brtscr5fs
+  private_key: 7be9b30da33ceabbeb59fc879771e8a5
+  merchant_account_id:
+    AUD: Trucleen_ID
+    USD: ycaipang
+  3d_secure: ''
+  enable_credit_card_icons: true
+conditions: {  }
+conditionOperator: AND

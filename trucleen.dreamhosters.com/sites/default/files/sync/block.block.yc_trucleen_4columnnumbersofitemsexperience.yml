@@ -1,0 +1,30 @@
+uuid: bcd31531-b02c-4857-962e-40c36b145528
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5fa16a31-e251-4db5-8008-11dd268cde8d'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_4columnnumbersofitemsexperience
+theme: yc_trucleen
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:5fa16a31-e251-4db5-8008-11dd268cde8d'
+settings:
+  id: 'block_content:5fa16a31-e251-4db5-8008-11dd268cde8d'
+  label: '4 column - numbers of items/experience'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /about-us

@@ -1,0 +1,30 @@
+uuid: 6d4890eb-6e7e-4f75-a01b-9e7693126726
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f2eaf4ec-86cf-4af4-b361-df6b09438940'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_ourservices
+theme: yc_trucleen
+region: content
+weight: -14
+provider: null
+plugin: 'block_content:f2eaf4ec-86cf-4af4-b361-df6b09438940'
+settings:
+  id: 'block_content:f2eaf4ec-86cf-4af4-b361-df6b09438940'
+  label: 'our services'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /services

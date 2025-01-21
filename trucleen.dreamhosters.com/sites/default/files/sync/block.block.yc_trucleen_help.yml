@@ -1,0 +1,22 @@
+uuid: 53c6d383-2d5d-40b4-891c-ac9e3509a4af
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - yc_trucleen
+_core:
+  default_config_hash: 1ozFpZAq-cL3DuI8vpVINPFkRKAt5uMl0S0HZJPF2FQ
+id: yc_trucleen_help
+theme: yc_trucleen
+region: highlighted
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

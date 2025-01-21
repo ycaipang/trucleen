@@ -1,0 +1,6 @@
+# Ignore
+/.editorconfig
+/.editorconfig
+/.lando.yml
+/trucleen_main.sql
+/vendor

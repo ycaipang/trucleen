@@ -1,6 +1,32 @@
-# Ignore
+# Ignore - local
 /.editorconfig
 /.editorconfig
 /.lando.yml
 /trucleen_main.sql
 /vendor
+/trucleen.dreamhosters.com/sites/default/settings.php
+/.alias
+/trucleen.dreamhosters.com/themes/custom/yc_trucleen/node_modules
+
+# Ignore - dreamhost
+/.bash_history
+/.bash_profile
+/.bashrc
+/.cache
+/.config
+/.cshrc
+/.editorconfig
+/.gitattributes
+/.gitconfig
+/.local
+/.ssh
+/.subversion
+/Backup/
+/composer.phar
+/composer.zip
+/logs/
+/php.ini
+/trucleen_db_012125.sql
+/trucleen_db_0516.sql
+/trucleen_db_071725.sql
+

@@ -1,0 +1,24 @@
+uuid: 1b8abe04-2d24-4e8c-a628-cab8dbdd8c2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.service
+    - field.storage.commerce_product.field_price
+  module:
+    - commerce_price
+id: commerce_product.service.field_price
+field_name: field_price
+entity_type: commerce_product
+bundle: service
+label: price
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_currencies:
+    - AUD
+  allow_negative: false
+field_type: commerce_price

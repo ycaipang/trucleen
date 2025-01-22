@@ -1,6 +1,6 @@
 uuid: 6a91af4a-e29c-4bbc-9210-a9f886972138
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - commerce_braintree
@@ -13,6 +13,7 @@ configuration:
   mode: test
   payment_method_types:
     - credit_card
+    - paypal
   collect_billing_information: false
   merchant_id: z4tjcczz843x22zd
   public_key: n8m6hf4brtscr5fs

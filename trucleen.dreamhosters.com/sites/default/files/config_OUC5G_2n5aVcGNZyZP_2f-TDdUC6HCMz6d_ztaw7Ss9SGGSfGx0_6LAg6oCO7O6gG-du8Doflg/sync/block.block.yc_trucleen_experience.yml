@@ -12,7 +12,7 @@ dependencies:
 id: yc_trucleen_experience
 theme: yc_trucleen
 region: content
-weight: -6
+weight: -11
 provider: null
 plugin: 'block_content:f6c18d74-25d1-4385-857c-65a0a03fce07'
 settings:

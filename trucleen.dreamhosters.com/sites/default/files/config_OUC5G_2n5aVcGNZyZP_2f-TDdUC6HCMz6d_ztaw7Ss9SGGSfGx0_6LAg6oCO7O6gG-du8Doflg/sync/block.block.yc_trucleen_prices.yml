@@ -12,7 +12,7 @@ dependencies:
 id: yc_trucleen_prices
 theme: yc_trucleen
 region: content
-weight: 0
+weight: -3
 provider: null
 plugin: 'block_content:130320b6-1ad3-49f4-ad7d-677ec217abcd'
 settings:

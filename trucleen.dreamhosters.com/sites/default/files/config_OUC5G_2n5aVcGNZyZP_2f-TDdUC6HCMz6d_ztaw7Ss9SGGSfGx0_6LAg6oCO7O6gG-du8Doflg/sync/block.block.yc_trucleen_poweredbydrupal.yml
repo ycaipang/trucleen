@@ -1,0 +1,24 @@
+uuid: 915ef8b1-b0ae-475a-8b72-5c50a5f8717a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_poweredbydrupal
+theme: yc_trucleen
+region: content
+weight: -4
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /cart

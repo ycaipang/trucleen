@@ -1,16 +1,14 @@
-uuid: 2e4cc8cb-49d6-46cf-9b4a-b1a1257e7e88
+uuid: 572c88a8-fe8a-4876-8a71-fc870225b534
 langcode: en
 status: true
 dependencies:
   config:
-    - commerce_product.commerce_product_variation_type.default
+    - commerce_product.commerce_product_variation_type.service
   module:
     - commerce_price
-_core:
-  default_config_hash: dDLA40Axom_QFA79EWUpe_bWXWE8I_7MijzPkslbVfA
-id: commerce_product_variation.default.default
+id: commerce_product_variation.service.default
 targetEntityType: commerce_product_variation
-bundle: default
+bundle: service
 mode: default
 content:
   list_price:
@@ -35,7 +33,7 @@ content:
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 10
+    weight: 90
     region: content
     settings:
       display_label: true

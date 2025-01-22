@@ -12,7 +12,7 @@ dependencies:
 id: yc_trucleen_webform
 theme: yc_trucleen
 region: content
-weight: 0
+weight: -2
 provider: null
 plugin: webform_block
 settings:

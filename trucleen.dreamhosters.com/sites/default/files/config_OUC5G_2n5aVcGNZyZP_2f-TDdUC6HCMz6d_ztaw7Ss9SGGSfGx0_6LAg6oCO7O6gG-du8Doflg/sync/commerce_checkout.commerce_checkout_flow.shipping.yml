@@ -6,7 +6,6 @@ dependencies:
     - commerce_braintree
     - commerce_payment
     - commerce_shipping
-    - trucleen_checkout_pane
 _core:
   default_config_hash: KDnx5MjFtp3-Rb0dGzCCzQEabHgvxrzxpkMrbOKsg_4
 label: Shipping
@@ -31,7 +30,12 @@ configuration:
       double_entry: false
     payment_information:
       step: order_information
+      weight: 2
+    shipping_information:
+      step: order_information
       weight: 3
+      auto_recalculate: true
+      require_shipping_profile: true
     review:
       step: review
       weight: 4
@@ -55,12 +59,3 @@ configuration:
       step: _sidebar
       weight: 9
       view: commerce_checkout_order_summary
-    trucleen_checkout_pane_custom_address:
-      step: order_information
-      weight: 2
-      custom_message: 'This is my custom address.'
-    shipping_information:
-      step: _disabled
-      weight: 10
-      auto_recalculate: true
-      require_shipping_profile: true

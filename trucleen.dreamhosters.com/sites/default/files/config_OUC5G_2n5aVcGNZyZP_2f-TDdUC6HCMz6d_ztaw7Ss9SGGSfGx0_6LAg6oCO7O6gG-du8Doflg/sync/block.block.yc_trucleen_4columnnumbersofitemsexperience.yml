@@ -12,7 +12,7 @@ dependencies:
 id: yc_trucleen_4columnnumbersofitemsexperience
 theme: yc_trucleen
 region: content
-weight: -5
+weight: -10
 provider: null
 plugin: 'block_content:5fa16a31-e251-4db5-8008-11dd268cde8d'
 settings:

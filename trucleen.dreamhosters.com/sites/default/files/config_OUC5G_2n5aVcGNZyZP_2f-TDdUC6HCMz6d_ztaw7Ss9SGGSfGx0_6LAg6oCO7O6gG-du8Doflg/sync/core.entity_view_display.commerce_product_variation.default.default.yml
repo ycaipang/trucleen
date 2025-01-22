@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - commerce_product.commerce_product_variation_type.default
-    - field.field.commerce_product_variation.default.field_pickup_delivery
   module:
     - commerce_price
 id: commerce_product_variation.default.default
@@ -12,16 +11,6 @@ targetEntityType: commerce_product_variation
 bundle: default
 mode: default
 content:
-  field_pickup_delivery:
-    type: boolean
-    label: above
-    settings:
-      format: default
-      format_custom_false: ''
-      format_custom_true: ''
-    third_party_settings: {  }
-    weight: 1
-    region: content
   list_price:
     type: commerce_price_default
     label: above

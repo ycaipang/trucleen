@@ -286,7 +286,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '4a3q1mCzMHk1_TokAUL4p5LTy2shPWvHvfBVD1YxRf1XR0sMn_9IDtObWMDe8WJuOLoHdg-p1g';
+$settings['hash_salt'] = 'sKZvFCI3gs4qF3Rt2O0vh4tcfXU5tQBhVnsSBBYMbGiR_wLNDdechcGgjCWO-wpFO4yC5CPvnQ';
 
 /**
  * Deployment identifier.
@@ -882,11 +882,11 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'trucleen_main',
-  'username' => 'ycaipang',
-  'password' => 'Flag3524',
+  'database' => 'drupal10',
+  'username' => 'drupal10',
+  'password' => 'drupal10',
   'prefix' => '',
-  'host' => 'mysql.displaysservices.com',
+  'host' => 'database',
   'port' => '3306',
   'isolation_level' => 'READ COMMITTED',
   'driver' => 'mysql',
@@ -894,7 +894,3 @@ $databases['default']['default'] = array (
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_OUC5G_2n5aVcGNZyZP_2f-TDdUC6HCMz6d_ztaw7Ss9SGGSfGx0_6LAg6oCO7O6gG-du8Doflg/sync';
-$settings['trusted_host_patterns'] = [
-  '^www\.trucleen\.dreamhosters\.com$',
-  '^trucleen\.dreamhosters\.com$',
-];

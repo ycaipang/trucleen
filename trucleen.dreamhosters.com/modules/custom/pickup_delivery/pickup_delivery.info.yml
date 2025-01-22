@@ -1,0 +1,7 @@
+name: 'Pickup Delivery'
+type: module
+description: 'Adds a pickup/delivery service option to the cart.'
+core_version_requirement: ^10
+dependencies:
+  - drupal:commerce_cart
+  - drupal:commerce

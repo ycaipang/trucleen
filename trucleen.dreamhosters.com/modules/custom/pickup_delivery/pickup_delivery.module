@@ -1,0 +1,21 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_alter().
+ */
+function custom_commerce_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
+  // Check if the form contains line items.
+  if (isset($form['line_items']) && is_array($form['line_items'])) {
+    // Loop through line items in the form.
+    foreach ($form['line_items'] as $key => &$line_item) {
+      // Check if the quantity field exists and has the target class name.
+      if (isset($line_item['quantity']['#attributes']['class']) &&
+        in_array('pickup-delivery-quantity', $line_item['views-field-edit-quantity']['#attributes']['class'], TRUE)) {
+        // Remove the quantity field.
+        unset($line_item['quantity']);
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+services:
+  trucleen_cart.service_fee_order_processor:
+    class: Drupal\trucleen_cart\ServiceFeeOrderProcessor
+    tags:
+      - { name: commerce_order_processor, priority: 0 }

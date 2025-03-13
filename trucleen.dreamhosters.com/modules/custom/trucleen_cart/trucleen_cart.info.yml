@@ -1,0 +1,7 @@
+name: Trucleen Cart
+type: module
+description: Adds a service fee based on selected options.
+core_version_requirement: ^10
+dependencies:
+  - commerce_cart
+  - commerce_order

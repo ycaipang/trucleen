@@ -39,6 +39,9 @@
     dom_id ? 'js-view-dom-id-' ~ dom_id,
   ]
 %}
+
+{{ attach_library('yc_trucleen/pickup-delivery') }}
+
 <div{{ attributes.addClass(classes) }}>
   {{ title_prefix }}
   {% if title %}
@@ -70,7 +73,9 @@
       {{ empty }}
     </div>
   {% endif %}
-
+  <div>
+    {{ drupal_view('pickup_delivery', 'commerce_cart_form') }}
+  </div>
   {% if pager %}
     {{ pager }}
   {% endif %}

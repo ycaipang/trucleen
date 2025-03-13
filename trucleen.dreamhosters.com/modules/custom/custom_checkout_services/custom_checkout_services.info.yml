@@ -1,0 +1,5 @@
+name: 'Custom Checkout Services'
+type: module
+description: 'Adds pickup/delivery options to checkout.'
+core_version_requirement: ^10
+package: Custom

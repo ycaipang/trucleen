@@ -36,6 +36,7 @@
         "drupal/recaptcha": "^3.2",
         "drupal/simplenews": "^4.0@RC",
         "drupal/token": "^1.13",
+        "drupal/twig_tweak": "^3.3",
         "drupal/webform": "^6.2",
         "drush/drush": "^12.5"
     },

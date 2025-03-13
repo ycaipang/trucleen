@@ -1,0 +1,28 @@
+@import "../import";
+
+#main {
+    #block-yc-trucleen-views-block-pickup-delivery-block-1 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+
+.pickup-delivery {
+    display: flex;
+    justify-content: end;
+    .view-content.row {
+        .views-row {
+            display: flex;
+            align-items: center;
+            .views-field.views-field-title {
+                margin-right: 10px;
+            }
+        }
+    }
+    .views-field {
+        form button {
+            color: white;
+        }
+    }
+}
+

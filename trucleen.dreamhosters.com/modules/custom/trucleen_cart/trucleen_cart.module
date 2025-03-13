@@ -1,0 +1,58 @@
+<?php
+
+use Drupal\commerce_order\Entity\OrderInterface;
+use Drupal\commerce_price\Price;
+
+/**
+ * Implements hook_commerce_order_presave().
+ *
+ * This hook is invoked before an order is saved. We use it to add a custom
+ * fee adjustment to the order total based on the selected service option.
+ */
+function trucleen_cart_commerce_order_presave(OrderInterface $order) {
+  // Remove any previous service fee adjustments to avoid duplicate fees.
+  foreach ($order->getAdjustments() as $adjustment) {
+    if (isset($adjustment['source_id']) && $adjustment['source_id'] === 'service_option_fee') {
+      $order->removeAdjustment($adjustment);
+    }
+  }
+
+  // Check if our custom service option field exists and has a value.
+  if ($order->hasField('field_service_option') && !$order->get('field_service_option')->isEmpty()) {
+    $option = $order->get('field_service_option')->value;
+    $fee = NULL;
+
+    // Set fee amounts based on the selected service option.
+    switch ($option) {
+      case 'delivery':
+        $fee = '5.00'; // Fee for delivery.
+        break;
+
+      case 'pickup_delivery':
+        $fee = '2.50'; // Fee for combined pickup and delivery.
+        break;
+
+      // For 'pickup' or any other value, no additional fee is applied.
+      default:
+        break;
+    }
+
+    // If a fee is applicable, add an adjustment.
+    if (!empty($fee)) {
+      // Retrieve the currency code from the order’s total price.
+      $currency = $order->getTotalPrice()->getCurrencyCode();
+      $price = new Price($fee, $currency);
+
+      // Build the adjustment array.
+      $adjustment = [
+        'type'      => 'service_option_fee',
+        'label'     => t('Service Fee'),
+        'amount'    => $price,
+        'source_id' => 'service_option_fee',
+      ];
+
+      // Add the adjustment to the order.
+      $order->addAdjustment($adjustment);
+    }
+  }
+}

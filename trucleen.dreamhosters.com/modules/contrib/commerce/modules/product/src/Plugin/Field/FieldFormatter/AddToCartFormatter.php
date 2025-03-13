@@ -69,7 +69,7 @@ class AddToCartFormatter extends FormatterBase {
     if (!empty($product->in_preview)) {
       $elements[0]['add_to_cart_form'] = [
         '#type' => 'actions',
-        ['#type' => 'button', '#value' => $this->t('Add to cart')],
+        ['#type' => 'button', '#value' => $this->t('Add to basket')],
       ];
       return $elements;
     }

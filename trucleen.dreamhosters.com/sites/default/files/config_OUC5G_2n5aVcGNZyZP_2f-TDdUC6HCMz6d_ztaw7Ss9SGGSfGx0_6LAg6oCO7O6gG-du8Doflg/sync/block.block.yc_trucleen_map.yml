@@ -17,7 +17,7 @@ provider: null
 plugin: 'block_content:67f67bdd-3442-482f-b125-f8244b9da725'
 settings:
   id: 'block_content:67f67bdd-3442-482f-b125-f8244b9da725'
-  label: map
+  label: Map+(Homepage)
   label_display: '0'
   provider: block_content
   status: true
@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: "<front>\r\n/contacts"
+    pages: "<front>\r\n/hometest1\r\n/hometest2"

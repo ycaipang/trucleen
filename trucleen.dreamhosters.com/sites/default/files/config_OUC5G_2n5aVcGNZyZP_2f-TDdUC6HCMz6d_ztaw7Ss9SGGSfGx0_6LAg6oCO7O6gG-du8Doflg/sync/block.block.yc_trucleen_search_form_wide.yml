@@ -11,12 +11,12 @@ _core:
 id: yc_trucleen_search_form_wide
 theme: yc_trucleen
 region: top_header_form
-weight: -7
+weight: -15
 provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: 'Search form (wide)'
+  label: Search
   label_display: '0'
   provider: search
   page_id: ''

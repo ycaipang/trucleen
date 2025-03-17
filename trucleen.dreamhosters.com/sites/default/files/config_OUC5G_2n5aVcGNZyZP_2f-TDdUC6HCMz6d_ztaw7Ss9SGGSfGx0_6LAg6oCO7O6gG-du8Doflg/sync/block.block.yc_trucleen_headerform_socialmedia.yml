@@ -1,0 +1,30 @@
+uuid: cc99d10e-e40c-47be-811c-d2245579a1b8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:15563bff-1b8b-4bae-b8af-f8dc5d5ed88d'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_headerform_socialmedia
+theme: yc_trucleen
+region: header_form
+weight: 0
+provider: null
+plugin: 'block_content:15563bff-1b8b-4bae-b8af-f8dc5d5ed88d'
+settings:
+  id: 'block_content:15563bff-1b8b-4bae-b8af-f8dc5d5ed88d'
+  label: '*HeaderForm_Social Media (Contacts Only)'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /contact-us

@@ -1,5 +1,6 @@
 _core:
   default_config_hash: TghDxAeHu4gER0JZhzPbMawpRgxggVsIu54oyTeaJOo
 load_all_enabled_fonts: 1
-enabled_fonts: {  }
+enabled_fonts:
+  - 'https://www.fontsquirrel.com/fonts/aileron#AileronHeavyItalic'
 load_on_themes: {  }

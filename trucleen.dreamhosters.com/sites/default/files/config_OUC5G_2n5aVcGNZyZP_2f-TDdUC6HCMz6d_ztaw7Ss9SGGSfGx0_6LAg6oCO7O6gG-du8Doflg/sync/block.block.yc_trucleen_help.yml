@@ -1,6 +1,6 @@
 uuid: 53c6d383-2d5d-40b4-891c-ac9e3509a4af
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - help
@@ -11,7 +11,7 @@ _core:
 id: yc_trucleen_help
 theme: yc_trucleen
 region: highlighted
-weight: -2
+weight: -17
 provider: null
 plugin: help_block
 settings:

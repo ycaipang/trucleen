@@ -1,23 +1,23 @@
-uuid: 420d8cb2-17a8-422e-98cf-5c68a160000b
+uuid: 1190ef20-c493-4e35-9f53-909bf5010018
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:62208f58-f00d-4e63-bde3-7b2049afed18'
+    - 'block_content:basic:0832968e-1d28-4052-a1f7-7fc13bc0b5a4'
   module:
     - block_content
     - system
   theme:
     - yc_trucleen
-id: yc_trucleen_contactinformation
+id: yc_trucleen_content_5contact_getintouchwithus
 theme: yc_trucleen
 region: content
 weight: -1
 provider: null
-plugin: 'block_content:62208f58-f00d-4e63-bde3-7b2049afed18'
+plugin: 'block_content:0832968e-1d28-4052-a1f7-7fc13bc0b5a4'
 settings:
-  id: 'block_content:62208f58-f00d-4e63-bde3-7b2049afed18'
-  label: 'contact information'
+  id: 'block_content:0832968e-1d28-4052-a1f7-7fc13bc0b5a4'
+  label: Content_5Contact_GetInTouchWithUs
   label_display: '0'
   provider: block_content
   status: true
@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: /contacts
+    pages: /contact-us

@@ -12,12 +12,12 @@ dependencies:
 id: yc_trucleen_experience
 theme: yc_trucleen
 region: content
-weight: -6
+weight: -8
 provider: null
 plugin: 'block_content:f6c18d74-25d1-4385-857c-65a0a03fce07'
 settings:
   id: 'block_content:f6c18d74-25d1-4385-857c-65a0a03fce07'
-  label: Experience
+  label: 'Content_2About_2 Who We Are'
   label_display: '0'
   provider: block_content
   status: true

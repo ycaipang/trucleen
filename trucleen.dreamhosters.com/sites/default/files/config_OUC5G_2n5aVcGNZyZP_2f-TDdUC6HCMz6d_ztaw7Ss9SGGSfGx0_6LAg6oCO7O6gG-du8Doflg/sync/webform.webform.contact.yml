@@ -20,7 +20,7 @@ categories: {  }
 elements: |-
   contact_header:
     '#type': webform_markup
-    '#markup': '<div class="contact-header"><h1>Get in Touch.<br>We''re Here to Help.</h1><p>We look forward to helping you create and maintain a clean, healthy environment that''s as enjoyable as it is functional.</p></div>'
+    '#markup': '<div class="contact-header"><h1 style="color:#005941;">Get in Touch.<br>We''re Here to Help.</h1></div>'
   name:
     '#type': textfield
     '#title': 'Your Name'

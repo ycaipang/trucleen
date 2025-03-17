@@ -12,12 +12,12 @@ dependencies:
 id: yc_trucleen_collectionanddelivery
 theme: yc_trucleen
 region: content
-weight: -7
+weight: -12
 provider: null
 plugin: 'block_content:64297b5a-44e2-4e8c-8e6a-0a1d88c4e0b8'
 settings:
   id: 'block_content:64297b5a-44e2-4e8c-8e6a-0a1d88c4e0b8'
-  label: 'Collection and Delivery'
+  label: 'Content_1HomePage_2 Our Features'
   label_display: '0'
   provider: block_content
   status: true
@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: '<front>'
+    pages: "<front>\r\n/hometest1\r\n/hometest2\r\n"

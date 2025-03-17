@@ -1,6 +1,6 @@
 uuid: 65cc9a09-d936-4727-a90a-e90db068e381
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: yc_trucleen_messages
 theme: yc_trucleen
 region: highlighted
-weight: -6
+weight: -18
 provider: null
 plugin: system_messages_block
 settings:

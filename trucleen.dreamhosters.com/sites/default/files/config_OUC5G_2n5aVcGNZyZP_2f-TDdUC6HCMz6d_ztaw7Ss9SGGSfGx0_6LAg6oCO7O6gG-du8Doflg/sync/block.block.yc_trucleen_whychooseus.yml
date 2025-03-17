@@ -12,12 +12,12 @@ dependencies:
 id: yc_trucleen_whychooseus
 theme: yc_trucleen
 region: content
-weight: -3
+weight: -10
 provider: null
 plugin: 'block_content:a3d8cae4-75be-4c80-b242-48c00cd3ecec'
 settings:
   id: 'block_content:a3d8cae4-75be-4c80-b242-48c00cd3ecec'
-  label: 'why choose us'
+  label: 'Content_1Homepage_4 WhyChooseUs'
   label_display: '0'
   provider: block_content
   status: true
@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: /about-us
+    pages: "<front>\r\n/hometest1\r\n/hometest2"

@@ -12,12 +12,12 @@ dependencies:
 id: yc_trucleen_laundrydrycleaningfoundation
 theme: yc_trucleen
 region: content
-weight: 1
+weight: -9
 provider: null
 plugin: 'block_content:bff8a8b3-81b2-4839-b2b0-77b205a96a22'
 settings:
   id: 'block_content:bff8a8b3-81b2-4839-b2b0-77b205a96a22'
-  label: 'laundry & dry cleaning foundation'
+  label: 'Content_2About_1 History'
   label_display: '0'
   provider: block_content
   status: true

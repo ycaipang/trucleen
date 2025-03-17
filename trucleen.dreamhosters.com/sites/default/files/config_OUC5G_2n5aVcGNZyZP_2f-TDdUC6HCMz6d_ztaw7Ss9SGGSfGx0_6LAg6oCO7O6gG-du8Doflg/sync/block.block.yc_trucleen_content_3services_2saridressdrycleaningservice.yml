@@ -1,0 +1,30 @@
+uuid: a2d96fe6-be7d-49c4-9d22-22884ffda795
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:33fea883-0a79-4e43-9836-ed5b7af58a14'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_content_3services_2saridressdrycleaningservice
+theme: yc_trucleen
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:33fea883-0a79-4e43-9836-ed5b7af58a14'
+settings:
+  id: 'block_content:33fea883-0a79-4e43-9836-ed5b7af58a14'
+  label: 'Content_3Services_2 Sari Dress Dry Cleaning Service'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /services

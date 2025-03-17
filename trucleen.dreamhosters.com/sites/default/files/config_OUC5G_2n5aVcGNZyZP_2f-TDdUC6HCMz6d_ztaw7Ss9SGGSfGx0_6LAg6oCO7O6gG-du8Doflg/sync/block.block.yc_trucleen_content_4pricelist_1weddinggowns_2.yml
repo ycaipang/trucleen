@@ -1,4 +1,4 @@
-uuid: 4fea5fcb-f621-48d6-b562-ae209a1e960d
+uuid: 0d8bf49c-0365-4067-b37c-6a89c21e36ba
 langcode: en
 status: true
 dependencies:
@@ -9,15 +9,15 @@ dependencies:
     - system
   theme:
     - yc_trucleen
-id: yc_trucleen_pricetable
+id: yc_trucleen_content_4pricelist_1weddinggowns_2
 theme: yc_trucleen
 region: content
-weight: -9
+weight: -3
 provider: null
 plugin: 'block_content:e87b6635-de14-42b7-a1ac-318e2d442301'
 settings:
   id: 'block_content:e87b6635-de14-42b7-a1ac-318e2d442301'
-  label: 'Pricing by Category'
+  label: 'Content_4Pricelist_1 Wedding Gowns'
   label_display: '0'
   provider: block_content
   status: true
@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: /prices
+    pages: /pricelist

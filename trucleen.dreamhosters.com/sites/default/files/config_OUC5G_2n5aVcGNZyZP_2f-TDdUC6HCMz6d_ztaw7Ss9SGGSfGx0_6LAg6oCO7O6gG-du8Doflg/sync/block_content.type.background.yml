@@ -1,0 +1,8 @@
+uuid: 7c3b89ed-46f5-4159-bc37-746af7c91352
+langcode: en
+status: true
+dependencies: {  }
+id: background
+label: Background
+revision: 1
+description: 'Mainpage background photo'

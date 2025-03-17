@@ -9,12 +9,12 @@ _core:
 id: yc_trucleen_primary_local_tasks
 theme: yc_trucleen
 region: content
-weight: -19
+weight: -14
 provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 'Primary tabs'
+  label: '>>Primary tabs'
   label_display: '0'
   provider: core
   primary: true

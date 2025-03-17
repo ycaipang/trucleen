@@ -13,7 +13,8 @@ configuration:
   mode: test
   payment_method_types:
     - credit_card
-  collect_billing_information: false
+    - paypal
+  collect_billing_information: true
   merchant_id: z4tjcczz843x22zd
   public_key: n8m6hf4brtscr5fs
   private_key: 7be9b30da33ceabbeb59fc879771e8a5

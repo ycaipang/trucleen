@@ -9,12 +9,12 @@ _core:
 id: yc_trucleen_primary_admin_actions
 theme: yc_trucleen
 region: content
-weight: -20
+weight: -15
 provider: null
 plugin: local_actions_block
 settings:
   id: local_actions_block
-  label: 'Primary admin actions'
+  label: '>>Primary admin actions'
   label_display: '0'
   provider: core
 visibility: {  }

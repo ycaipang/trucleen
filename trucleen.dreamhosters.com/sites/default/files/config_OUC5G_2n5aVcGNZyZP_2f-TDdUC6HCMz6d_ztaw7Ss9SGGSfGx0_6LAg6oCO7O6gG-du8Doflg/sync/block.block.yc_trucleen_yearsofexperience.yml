@@ -12,12 +12,12 @@ dependencies:
 id: yc_trucleen_yearsofexperience
 theme: yc_trucleen
 region: content
-weight: -17
+weight: -11
 provider: null
 plugin: 'block_content:b49777e0-a38c-4035-a73d-a18e7fa56f39'
 settings:
   id: 'block_content:b49777e0-a38c-4035-a73d-a18e7fa56f39'
-  label: 'Years of experience'
+  label: 'Content_1Homepage_3 Introduction'
   label_display: '0'
   provider: block_content
   status: true
@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: '<front>'
+    pages: "<front>\r\n/hometest1\r\n/hometest2"

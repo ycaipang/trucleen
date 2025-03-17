@@ -1,0 +1,30 @@
+uuid: dc8c54c7-0e6f-4026-ad43-77483b0157c6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a4717ad1-12cf-47e6-b19f-d1a753bb48d0'
+  module:
+    - block_content
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_content_4pricelist_2garments
+theme: yc_trucleen
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:a4717ad1-12cf-47e6-b19f-d1a753bb48d0'
+settings:
+  id: 'block_content:a4717ad1-12cf-47e6-b19f-d1a753bb48d0'
+  label: 'Content_4Pricelist_2 Garments'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /pricelist

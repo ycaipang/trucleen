@@ -1,6 +1,6 @@
 uuid: f6f17492-a787-4179-a877-b38f80537887
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: yc_trucleen_content
 theme: yc_trucleen
 region: content
-weight: 3
+weight: 1
 provider: null
 plugin: system_main_block
 settings:
@@ -19,4 +19,8 @@ settings:
   label: 'Main page content'
   label_display: '0'
   provider: system
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

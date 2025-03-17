@@ -12,12 +12,12 @@ dependencies:
 id: yc_trucleen_bestguaranteeinbusiness
 theme: yc_trucleen
 region: content
-weight: -4
+weight: -7
 provider: null
 plugin: 'block_content:23d7cf4d-926c-498d-9107-bad82362f00d'
 settings:
   id: 'block_content:23d7cf4d-926c-498d-9107-bad82362f00d'
-  label: 'Best Guarantee in Business'
+  label: 'Content_2About_3 Business Guarantee'
   label_display: '0'
   provider: block_content
   status: true

@@ -1,6 +1,6 @@
 uuid: b7eae7c4-19bf-4f0c-a0e6-1e9b5f143b2d
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: yc_trucleen_page_title
 theme: yc_trucleen
 region: featured_top
-weight: -12
+weight: -14
 provider: null
 plugin: page_title_block
 settings:

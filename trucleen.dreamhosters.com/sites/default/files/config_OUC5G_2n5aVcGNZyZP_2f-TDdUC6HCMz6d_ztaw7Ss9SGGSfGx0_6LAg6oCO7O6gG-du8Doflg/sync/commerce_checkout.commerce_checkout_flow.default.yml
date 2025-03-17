@@ -19,23 +19,16 @@ configuration:
   guest_new_account: false
   guest_new_account_notify: false
   panes:
-    shipping_information:
-      step: login
-      weight: 0
-      auto_recalculate: true
-      require_shipping_profile: true
     login:
       step: login
-      weight: 1
+      weight: 0
       allow_guest_checkout: true
       allow_registration: false
       registration_form_mode: register
-    trucleen_checkout_pane_custom_address:
-      step: _sidebar
-      weight: 9
-      custom_address: 'This is my custom address.'
-      custom_adddress: 'Custom address here'
     payment_information:
+      step: order_information
+      weight: 2
+    shipping_information:
       step: order_information
       weight: 2
     review:
@@ -61,6 +54,11 @@ configuration:
       step: _sidebar
       weight: 8
       view: null
+    trucleen_checkout_pane_custom_address:
+      step: _sidebar
+      weight: 9
+      custom_address: 'This is my custom address.'
+      custom_adddress: 'Custom address here'
     contact_information:
       step: _disabled
       weight: 10

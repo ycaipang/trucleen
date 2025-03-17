@@ -1,6 +1,6 @@
-uuid: 65e7cb3e-009f-43ae-b958-c5273e31f354
+uuid: 7c587b75-8240-456a-b7b9-dc12b9e3e6fe
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -8,12 +8,10 @@ dependencies:
     - system
   theme:
     - yc_trucleen
-_core:
-  default_config_hash: kCnPnQlvE451Ij5T-S5A2IAL7kQLB4S3pHo8FMCTLqs
-id: yc_trucleen_account_menu
+id: yc_trucleen_useraccountmenu
 theme: yc_trucleen
-region: secondary_menu
-weight: -7
+region: top_header
+weight: 0
 provider: null
 plugin: 'system_menu_block:account'
 settings:
@@ -22,6 +20,6 @@ settings:
   label_display: '0'
   provider: system
   level: 1
-  depth: 1
+  depth: 0
   expand_all_items: false
 visibility: {  }

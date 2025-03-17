@@ -12,12 +12,12 @@ dependencies:
 id: yc_trucleen_ourservices
 theme: yc_trucleen
 region: content
-weight: -14
+weight: -4
 provider: null
 plugin: 'block_content:f2eaf4ec-86cf-4af4-b361-df6b09438940'
 settings:
   id: 'block_content:f2eaf4ec-86cf-4af4-b361-df6b09438940'
-  label: 'our services'
+  label: 'Content_3Services_3 Types of Cleaning'
   label_display: '0'
   provider: block_content
   status: true

@@ -1,0 +1,20 @@
+uuid: 256505f4-14a7-4336-908c-f98a302937d4
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - yc_trucleen
+id: yc_trucleen_breadcrumbs_2
+theme: yc_trucleen
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

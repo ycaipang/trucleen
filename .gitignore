@@ -2,12 +2,13 @@
 /.editorconfig
 /.editorconfig
 /.lando.yml
-/trucleen_main.sql
-/vendor
 /trucleen.dreamhosters.com/sites/default/settings.php
 /trucleen.dreamhosters.com/themes/custom/yc_trucleen/node_modules
 /trucleen.dreamhosters.com/themes/custom/yc_trucleen/node_modules/*
 /.db
+
+# all env
+/vendor
 
 # Ignore - dreamhost
 /.bash_history
@@ -22,12 +23,10 @@
 /.local
 /.ssh
 /.subversion
-/Backup/
+/Backup
+/Maildir
 /composer.phar
 /composer.zip
-/logs/
+/logs
 /php.ini
-/trucleen_db_012125.sql
-/trucleen_db_0516.sql
-/trucleen_db_071725.sql
 

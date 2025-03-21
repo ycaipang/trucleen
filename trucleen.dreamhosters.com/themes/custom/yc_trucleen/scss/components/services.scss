@@ -1,0 +1,75 @@
+@import "../import";
+
+@include min(xs) {
+    @include max(ph) {
+        #main-wrapper #main {
+            display: block;
+        }
+        .commercial-laundry-service {
+            display: block!important;
+        }
+        #block-yc-trucleen-content-3services-2saridressdrycleaningservice {
+            .container {
+                display: block;
+            }
+        }
+        #block-yc-trucleen-ourservices {
+            .container {
+                display: block;
+            }
+        }
+    }
+}
+
+@include min(md) {
+    .commercial-laundry-service {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+        align-items: center;
+        gap: 40px;
+        .col-right {
+            flex: 0 0 40%;
+        }
+        .col-right {
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+}
+
+@include min(lg) {
+    .col-right {
+        img {
+            height: 680px;
+        }
+    }
+}
+
+@include max(lg) {
+    .col-right {
+        img {
+            height: 820px;
+        }
+    }
+}
+
+
+@include max(md) {
+    .commercial-laundry-service {
+        .col-right {
+            img {
+                height: 500px;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+

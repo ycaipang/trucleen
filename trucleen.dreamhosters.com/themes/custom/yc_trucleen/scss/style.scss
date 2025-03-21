@@ -12,6 +12,12 @@ Description: Bootstrap 4 with Sass
 body {
     background: $white;
     text-align: justify;
+    p {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+    }
 }
 
 
@@ -59,8 +65,7 @@ a {
 #main,
 .featured-top {
     .block {
-        padding-bottom: 35px;
-        margin-bottom: 50px;
+        padding-bottom: 50px;
     }
 }
 
@@ -81,5 +86,22 @@ a {
     a {
         color: $gray-600;
         font-size: 12px;
+    }
+}
+
+#header {
+    #navbar-main {
+        #block-yc-trucleen-main-menu {
+            ul {
+                li {
+                    a {
+                        font-family: "Cinzel", serif;
+                        @include min(lg) {
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

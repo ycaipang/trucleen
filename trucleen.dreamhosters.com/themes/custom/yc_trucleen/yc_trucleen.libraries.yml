@@ -10,15 +10,15 @@ global-styling:
       css/style.css: {}
       css/header.css: {}
       css/footer.css: {}
-
+      css/services.css: {}
   dependencies:
     - core/jquery
     - core/drupal
-fonts:
+
+google-fonts:
   css:
     theme:
-      '//fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700': { type: external }
-      '//fonts.googleapis.com/css2?family=Anton&family=Nunito:wght@400;600;700&display=swap': { type: external }
+      '//fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap': { type: external }
 
 #start library
 slick:

@@ -45,6 +45,18 @@
         }
         .logo {
             flex: 0 0 30%;
+            @include min(xs) {
+                @include max(ph) {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .contact {
+            @include min(xs) {
+                @include max(ph) {
+                    margin-bottom: 30px;
+                }
+            }
         }
         .time {
             flex: 1 0 0;
@@ -77,6 +89,10 @@
                 }
             }
         }
+        .footer-column {
+            padding: 10px;
+        }
+
     }
 }
 

@@ -7,6 +7,7 @@ base theme: bootstrap_barrio
 
 libraries:
   - yc_trucleen/global-styling
+  - yc_trucleen/google-fonts
 libraries-override:
   bootstrap_barrio/global-styling: false
 regions:

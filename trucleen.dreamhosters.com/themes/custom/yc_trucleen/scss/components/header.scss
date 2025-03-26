@@ -58,6 +58,9 @@ ul.socials {
 }
 
 #navbar-main {
+    .container {
+        position: relative;
+    }
     .navbar-brand{
         img {
             width: 160px;
@@ -68,6 +71,12 @@ ul.socials {
         padding: 10px 0;
         @include max(lg) {
             text-transform: uppercase;
+            position: absolute;
+            background-color: #00594f;
+            z-index: 999;
+            top: 100%;
+            width: 100%;
+            left: 0;
         }
         #block-yc-trucleen-main-menu {
             @include max(lg) {
@@ -131,7 +140,7 @@ ul.socials {
     }
     h1.fade-in-text {
         font-size: 58px;
-        color: #ffd700;
+        color: #fff;
         text-shadow: -3px 3px 3px #090909;
         span {
             color: #FFD700;
@@ -150,6 +159,7 @@ ul.socials {
         font-size: 24px;
         margin: 30px 0 10px 0;
         color: #fff;
+        text-shadow: -3px 3px 3px #090909;
     }
     .text-overlay {
         position: absolute;
